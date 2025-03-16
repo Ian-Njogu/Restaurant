@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/1d9b9697c1.js" crossorigin="anonymous"></script>
 </head>
-<body class="flex flex-col text-gray-800 min-h-screen bg-black" >
+<body class="flex flex-col text-white min-h-screen bg-black" >
     <!-- navbar section -->
         <nav class="fixed top-0 w-full bg-black text-white flex justify-between items-center px-8 py-4" >
-            <div class="text-xl font-bold">Cibus</div>
+            <div class="text-xl font-bold">CIBUS</div>
             <ul class="hidden md:flex space-x-6 ">
                 <li><a href="index.html" class="hover:white transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-white after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Home</a></li>
                 <li><a href="menu.html" class="hover:white transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-white after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-100">Menu</a></li>
@@ -19,6 +20,219 @@
             <div class="md:hidden text-2xl cursor-pointer">&#9776;</div>
           </nav>
     <!-- Hero section -->
-    <header id="hero" class="h-screen bg-cover bg-center justify-center text-white text-center flex  items-center" style="background-image: url('assets\pexels-sylwester-ficek-154797634-31080866.jpg');">
+    <header id="hero" class="h-screen bg-cover bg-center justify-center text-white text-center flex  items-center" style="background-image: url('assets/pexels-elevate-1267320.jpg');">
+        
            
      </header>
+
+     <!-- Main Section -->
+      <main>
+            <h1 class="text-5xl uppercase text-center mb-12">Appetizers</h1>
+            <div class="grid grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Appetizer Section -->
+                <div class="flex justify-between items-center border-t border-gold pt-4">
+                    <div>
+                        <h2 class="text-lg uppercase font-semibold tracking-wide">Bruschetta Trio</h2>
+                        <p class="text-gray-400 text-sm">Toasted Baguette Slices Topped With A Mix Of Tomato Basil.</p>
+                    </div>
+                   <p>$22</p>
+                </div>
+        
+                <div class="flex justify-between items-center border-t border-gold pt-4">
+                    <div>
+                        <h2 class="text-lg uppercase font-semibold tracking-wide">Homemade Pelmeni</h2>
+                        <p class="text-gray-400 text-sm">Pelmeni, Ground Beef With Melted Butter Or Smetana.</p>
+                    </div>
+                    <p>$34</p>
+                </div>
+        
+                <div class="flex justify-between items-center border-t border-gold pt-4">
+                    <div>
+                        <h2 class="text-lg uppercase font-semibold tracking-wide">Spicy Tuna Tartare</h2>
+                        <p class="text-gray-400 text-sm">Fresh Tuna, Avocado, And Mango With A Touch Of Sesame.</p>
+                    </div>
+                    <p>$27</p>
+                </div>
+        
+                <div class="flex justify-between items-center border-t border-gold pt-4">
+                    <div>
+                        <h2 class="text-lg uppercase font-semibold tracking-wide">Acai Bowl</h2>
+                        <p class="text-gray-400 text-sm">Pure Unsweetened Acai Puree, Toppings, Yogurt.</p>
+                    </div>
+                    <p>$22</p>
+                </div>
+        
+                <div class="flex justify-between items-center border-t border-gold pt-4">
+                    <div>
+                        <h2 class="text-lg uppercase font-semibold tracking-wide">Caesar Salad</h2>
+                        <p class="text-gray-400 text-sm">Crisp Romaine Lettuce, Parmesan Cheese, Croutons, Dressing.</p>
+                    </div>
+                   <p>$34</p>
+                </div>
+        
+                <div class="flex justify-between items-center border-t border-gold pt-4">
+                    <div>
+                        <h2 class="text-lg uppercase font-semibold tracking-wide">Sweet Heat Salad</h2>
+                        <p class="text-gray-400 text-sm">Ceps, Parmesan, Alba Truffle, Mixed Greens.</p>
+                    </div>
+                    <p>$27</p>
+                </div>
+            </div>
+        
+            <!--Order Button -->
+            <div class="text-center mt-12">
+                <button class="bg-red-500 hover:bg-red-600 text-white uppercase py-2 px-6 rounded-full text-sm font-semibold">Buy Now</button>
+            </div>
+            <!-- Main course section -->
+            <h1 class="text-5xl uppercase text-center mt-2 mb-12">Main courses</h1>
+            <div class="grid grid-cols-2 gap-8 max-w-4xl mx-auto">
+                
+                <div class="flex justify-between items-center border-gold border-t pt-4">
+                <div>
+                 <h2 class="text-lg uppercase font-semibold tracking-wide">Gourmet Cheeseburger</h2>
+                 <p class="text-gray-400 text-sm">Beef Patty, Cheddar Cheese, Lettuce, Pickles, Burger Sauce.</p>
+                </div>
+                <p>$42</p>
+                </div>
+                
+                <div class="flex justify-between items-center border-gold border-t pt-4">
+                    <div>
+                     <h2 class="text-lg uppercase font-semibold tracking-wide">Lemon Herb Chicken</h2>
+                     <p class="text-gray-400 text-sm">Chicken Marinated In Lemon And Herbs, Mashed Potatoes.</p>
+                    </div>
+                    <p>$38</p>
+                 </div>
+    
+                    <div class="flex justify-between items-center border-gold border-t pt-4">
+                        <div>
+                         <h2 class="text-lg uppercase font-semibold tracking-wide">Vegetarian Lasagna</h2>
+                         <p class="text-gray-400 text-sm">Fresh Pasta With Ricotta, Spinach, Marinara Sauce, Mozzarella.</p>
+                        </div>
+                        <p>$43</p>
+                     </div>
+    
+                        <div class="flex justify-between items-center border-gold border-t pt-4">
+                            <div>
+                             <h2 class="text-lg uppercase font-semibold tracking-wide">Seared Salmon</h2>
+                             <p class="text-gray-400 text-sm">Wild-caught Salmon Fillet With A Honey Soy Glaze, Jasmine Rice.</p>
+                            </div>
+                            <p>$58</p>
+                         </div>
+                
+                            <div class="flex justify-between items-center border-gold border-t pt-4">
+                                <div>
+                                 <h2 class="text-lg uppercase font-semibold tracking-wide">Teriyaki Burger</h2>
+                                 <p class="text-gray-400 text-sm">Angus beef patty, Cheddar cheese, Lettuce, Tomato.</p>
+                                 </div>
+                                 <p>$19</p>
+                            </div>
+    
+                             <div class="flex justify-between items-center border-gold border-t pt-4">
+                                 <div>
+                                  <h2 class="text-lg uppercase font-semibold tracking-wide">BLACK SQUID INK RISOTTO</h2>
+                                  <p class="text-gray-400 text-sm">Bountiful Squid, Pints Of Fish Stock, Heated Fine Sea Salt.</p>
+                                 </div>
+                                 <p>$21</p>
+                             </div>    
+            </div>
+            <!--Order Button -->
+            <div class="text-center mt-12">
+                <button class="bg-red-500 hover:bg-red-600 text-white uppercase py-2 px-6 rounded-full text-sm font-semibold">Buy Now</button>
+            </div>
+        <!-- Drinks Section -->
+        <h1 class="text-5xl uppercase text-center mt-2 mb-12">Drinks</h1>
+        <div class="grid grid-cols-2 gap-8 max-w-4xl mx-auto">
+            
+            <div class="flex justify-between items-center border-gold border-t pt-4">
+            <div>
+             <h2 class="text-lg uppercase font-semibold tracking-wide">Chateur margaux rose</h2>
+             <p class="text-gray-400 text-sm">Blends Elegance, Purity Of Fruit, Harmony, And Finesse</p>
+            </div>
+            <p>$9</p>
+            </div>
+            
+            <div class="flex justify-between items-center border-gold border-t pt-4">
+                <div>
+                 <h2 class="text-lg uppercase font-semibold tracking-wide">Citrus Sparkler</h2>
+                 <p class="text-gray-400 text-sm">A Blend Of Orange, Lemon, Lime Juices, Sparkling Water.</p>
+                </div>
+                <p>$15</p>
+             </div>
+
+                <div class="flex justify-between items-center border-gold border-t pt-4">
+                    <div>
+                     <h2 class="text-lg uppercase font-semibold tracking-wide">Berry Lemonade</h2>
+                     <p class="text-gray-400 text-sm">Fresh Lemonade With A Swirl Of Mixed Berry Puree.</p>
+                    </div>
+                    <p>$19</p>
+                 </div>
+                
+                    <div class="flex justify-between items-center border-gold border-t pt-4">
+                        <div>
+                         <h2 class="text-lg uppercase font-semibold tracking-wide">Berry Bliss Mojito</h2>
+                         <p class="text-gray-400 text-sm">White Rum, Fresh Mint, Lime, Muddled Berries, Soda.</p>
+                        </div>
+                        <p>$12</p>
+                     </div>
+            
+                        <div class="flex justify-between items-center border-gold border-t pt-4">
+                            <div>
+                             <h2 class="text-lg uppercase font-semibold tracking-wide">Clos du Tue-Boeuf</h2>
+                             <p class="text-gray-400 text-sm">Gently Pressed, Fermented In Barrique, Indigenous Yeast.</p>
+                             </div>
+                             <p>$19</p>
+                        </div>
+
+                         <div class="flex justify-between items-center border-gold border-t pt-4">
+                             <div>
+                              <h2 class="text-lg uppercase font-semibold tracking-wide">Niepoort Redoma Branco</h2>
+                              <p class="text-gray-400 text-sm">Combines Lemony And Floral Notes With A Beautiful Minerality.</p>
+                             </div>
+                             <p>$21</p>
+                         </div>    
+        </div>
+         <!--Order Button -->
+         <div class="text-center mt-12">
+            <button class="bg-red-500 hover:bg-red-600 text-white uppercase py-2 px-6 rounded-full text-sm font-semibold">Buy Now</button>
+        </div>
+       
+        <!-- Footer section -->
+      <footer class="bg-black text-white text-center py-5 border-t border-gold mt-5">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-2 md:grid-cols-4 gap-8 ">
+            <!-- About section -->
+             <div>
+                <h3 class="text-lg font-semibold mb-2">About</h3>
+                <p>We are dedicated to providing top notch web services</p>
+             </div>
+        
+        <!-- Quick links -->
+         <div>
+            <h3 class="text-lg font-semibold mb-2">Quick links</h3>
+            <ul class="space-y-1">
+                <li><a href="#hero" class="text-gray-400 hover:text-white transition">Home</a></li>
+                <li><a href="#about" class="text-gray-400 hover:text-white transition">About</a></li>
+                <li><a href="#services" class="text-gray-400 hover:text-white transition">Services</a></li>
+                <li><a href="#contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
+            </ul>
+         </div>
+         <!-- Contact Section -->
+          <div>
+            <h3 class="text-lg font-semibold mb-2"></h3>
+            <p class="text-gray-400">Email: robustian16@gmail.com</p>
+            <p class="text-gray-400">Phone: +254123456789</p>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold mb-2">Follow Us</h3>
+            <div class="flex justify-center space-x-4">
+                <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white transition"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        
+        </footer>
+  
+       
+      </main>
+      </body>
