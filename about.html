@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/1d9b9697c1.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-black flex-col flex text-white min-h-screen">
+     <!-- navbar section -->
+     <nav class="fixed top-0 w-full bg-black text-white flex justify-between items-center px-8 py-4" >
+        <div class="text-xl font-bold">CIBUS</div>
+        <ul class="hidden md:flex space-x-6 ">
+            <li><a href="index.html" class="hover:white transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-white after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Home</a></li>
+            <li><a href="menu.html" class="hover:white transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-white after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-100">Menu</a></li>
+            <li><a href="about.html" class="hover:white transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-white after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-100">About</a></li>
+            <li><a href="contact.html"class="hover:white transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-white after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-100">Contact</a></li>
+        </ul>
+        <div class="md:hidden text-2xl cursor-pointer">&#9776;</div>
+      </nav>
+      <header id="hero" class="h-screen bg-cover bg-center justify-center text-white text-center flex  items-center" style="background-image: url('assets/pexels-elevate-1267320.jpg');">
+        
+           
+      </header>
+      <main>
+        <h1 class="text-center text-5xl uppercase mt-5 ">team of experts</h1>
+        <p class="text-center text-sm mb-5">We are dedicated to providing exemplary services to our customers</p>
+        <div class="grid grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div>
+            <img src="assets\pexels-godisable-jacob-226636-718978.jpg" alt="">
+            <h2 class="uppercase text-center text-3xl"> Phoebe Bruce</h2>
+            <p class="semibold text-center">Main chef</p>
+        </div>
+            <div>
+                <img src="assets\pexels-kebs-visuals-742415-3992656.jpg" alt="">
+                <h2 class="uppercase text-center text-3xl"> Grace jill</h2>
+                <p class="semibold text-center">Expediter</p>
+            </div>
+
+        </div>
+        <div>
+            <h1 class="text-center text-4xl uppercase mt-5">Mission:</h1>
+            <p class="semibold text-center">To ensure we are the best restaurant chain in town</p>
+        </div>
+      </main>
+      <!-- Footer section -->
+      <footer class="bg-black text-white text-center py-5 border-t border-gold mt-5">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-2 md:grid-cols-4 gap-8 ">
+            <!-- About section -->
+             <div>
+                <h3 class="text-lg font-semibold mb-2">About</h3>
+                <p>We are dedicated to providing you with the best meals in town</p>
+             </div>
+        
+        <!-- Quick links -->
+         <div>
+            <h3 class="text-lg font-semibold mb-2">Quick links</h3>
+            <ul class="space-y-1">
+                <li><a href="index.html" class="text-gray-400 hover:text-white transition">Home</a></li>
+                <li><a href="about.html" class="text-gray-400 hover:text-white transition">About</a></li>
+                <li><a href="contact.html" class="text-gray-400 hover:text-white transition">Contact</a></li>
+            </ul>
+         </div>
+         <!-- Contact Section -->
+          <div>
+            <h3 class="text-lg font-semibold mb-2"></h3>
+            <p class="text-gray-400">Email: robustian16@gmail.com</p>
+            <p class="text-gray-400">Phone: +254123456789</p>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold mb-2">Follow Us</h3>
+            <div class="flex justify-center space-x-4">
+                <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white transition"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        
+        </footer>
+  
+ 
+</body>
+</html>
